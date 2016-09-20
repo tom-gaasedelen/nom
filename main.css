@@ -4,6 +4,37 @@ html {
 
 }
 
+body {
+
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+
+.wrapper {
+  position: relative;
+    margin: auto;
+    height:600px;
+}
+
+.circleS {
+  position: relative;
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  background-color: red;
+  margin: auto;
+}
+
+
+.circleL {
+  position: fixed;
+  height: 30em;
+  width: 30em;
+  border-radius: 50%;
+  background-color: orange;
+  left: 20%;
+
 }
