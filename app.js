@@ -1,0 +1,8 @@
+$(function (){
+
+
+
+
+
+
+}) //end jquery init 
