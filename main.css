@@ -1,16 +1,26 @@
 /*apply a natural box layout model to all elements but allowing components to change*/
 html {
   box-sizing: border-box;
-
+  background-color: orange;
 }
 
 body {
 
 }
 
+.everything {
+  display: flex;
+  background: linear-gradient(white, black);
+  overflow: scroll;
+
+}
+
+
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
 
 
 .wrapper {
@@ -24,7 +34,7 @@ body {
   height: 5em;
   width: 5em;
   border-radius: 50%;
-  background-color: red;
+  background-color: white;
   margin: auto;
 }
 
@@ -36,5 +46,15 @@ body {
   border-radius: 50%;
   background-color: orange;
   left: 20%;
+  top: 10%;
+
+}
+
+.dot {
+  height:10px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: black;
+  margin-left: 40px;
 
 }
